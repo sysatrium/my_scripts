@@ -1,0 +1,6 @@
+# Format:
+#   domain:port.protocol,[port.protocol]
+#
+# Example:
+#   kapustin.dyndns.org:8000.tcp,7081.udp
+kapustin.dyndns.org:80.tcp,443.tcp,22.tcp
