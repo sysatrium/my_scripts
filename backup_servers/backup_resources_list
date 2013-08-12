@@ -1,0 +1,47 @@
+# You must declare container ALL
+# Example:
+#   declare ALL=(
+#   "/etc"
+#   "/usr/local/bin"
+#   "/var/spool/cron"
+#   )
+#
+# The name of a container must be equivalent to type server in the file backup_server_list
+# Example of the file backup_server_list
+#   FMN:fmn1.int,fmn2.int
+#   SIPFE:sipfe1.int,sipfe2.int
+#
+# NOTE!
+# If a type server exist in the file backup_server_list, 
+# but a container doesn't exist for this type server, 
+# then will be use only the container ALL for this type server
+
+
+
+declare ALL=(
+"/etc"
+"/usr/local/bin"
+"/var/spool/cron"
+)
+
+declare WEB=(
+"/srv/glusterfs"
+"/var/lib/tomcat7/wccon2/webapps/wccon2"
+"/var/lib/tomcat7/vcc/webapps/vcc"
+"/var/lib/tomcat7/conference/webapps/conference"
+"/var/lib/tomcat7/url/webapps/url"
+"/var/lib/tomcat7/captcha-service/webapps/captcha-service"
+)
+
+declare FMN=(
+"/opt/red5"
+"/opt/media-agent"
+)
+
+declare MRF=(
+"/opt/p90/config"
+)
+
+declare MAN=(
+"/srv/www/kickstarts/"
+)

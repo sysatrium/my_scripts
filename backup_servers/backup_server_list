@@ -1,0 +1,7 @@
+WEB:web1.int,web2.int
+FMN: fmn1.int, fmn2.int
+#MRF:mrf1.int,mrf2.int
+#SIFE:sipfe1.int,sipfe2.int
+DB:fmn1.int,fmn2.int
+MAN:man1.int
+KVM:s1.int,s2.int
